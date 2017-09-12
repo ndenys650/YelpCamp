@@ -13,7 +13,7 @@ app.get("/campgrounds", function(req, res){
 		{name: "Redwood", image: "http://www.photosforclass.com/download/2984976440"},
 		{name: "Mateo", image: "http://www.photosforclass.com/download/8265812638"}
 	]
-	res.render('campgrounds');
+	res.render('campgrounds', {campgrounds: campgrounds});
 })
 
 app.listen(3000, function(){
