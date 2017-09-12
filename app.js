@@ -8,6 +8,12 @@ app.set("view engine", "ejs");
 var campgrounds = [
 		{name: "Belmont", image: "http://www.photosforclass.com/download/11407596925"},
 		{name: "Redwood", image: "http://www.photosforclass.com/download/2984976440"},
+		{name: "Mateo", image: "http://www.photosforclass.com/download/8265812638"},
+		{name: "Belmont", image: "http://www.photosforclass.com/download/11407596925"},
+		{name: "Redwood", image: "http://www.photosforclass.com/download/2984976440"},
+		{name: "Mateo", image: "http://www.photosforclass.com/download/8265812638"},
+		{name: "Belmont", image: "http://www.photosforclass.com/download/11407596925"},
+		{name: "Redwood", image: "http://www.photosforclass.com/download/2984976440"},
 		{name: "Mateo", image: "http://www.photosforclass.com/download/8265812638"}
 ];
 
