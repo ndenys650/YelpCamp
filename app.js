@@ -11,29 +11,31 @@ app.set("view engine", "ejs");
 // Schema Setup
 var campgroundSchema = new mongoose.Schema({
 	name: String,
-	image: String
+	image: String,
+	description: String
 });
 
 var Campground = mongoose.model("Campground", campgroundSchema);
 
-// Campground.create(
-// 	{
-// 		name: "Redwood", 
-// 		image: "http://www.photosforclass.com/download/2984976440"
-
-// 	}, function(err, campground){
-// 		if(err){
-// 			console.log(err);
-// 		} else {
-// 			console.log("Newly create campground:");
-// 			console.log(campground);
-// 		}
-// 	});
+Campground.create(
+	{
+		name: "Redwood", 
+		image: "http://www.photosforclass.com/download/2984976440",
+		description: "Huge redwood trees surround this luxurious spa of a campsite"
+	}, function(err, campground){
+		if(err){
+			console.log(err);
+		} else {
+			console.log("Newly create campground:");
+			console.log(campground);
+		}
+	});
 
 app.get("/", function(req, res){
 	res.render("landing");
 });
 
+// INDEX Route - Show all campgrounds
 app.get("/campgrounds", function(req, res){
 	// Get all campgrounds from DB
 	Campground.find({}, function(err, allCampgrounds){
@@ -45,6 +47,7 @@ app.get("/campgrounds", function(req, res){
 	});
 });
 
+// Create Route - add new campground to DB
 app.post('/campgrounds', function(req, res){
 	// get data from form and add to campgrounds array
 	var name = req.body.name;
@@ -61,8 +64,16 @@ app.post('/campgrounds', function(req, res){
 	});
 });
 
+// NEW route - show form to create new campground
 app.get("/campgrounds/new", function(req, res){
 	res.render('new.ejs');
+});
+
+// SHOW route - shows more info about one campground
+app.get("/campgrounds/:id", function(req, res){
+	// find the campground with provided ID
+	// render show template with that campground
+	res.send("This will be the show page")
 });
 
 app.listen(3000, function(){
