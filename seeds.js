@@ -9,17 +9,17 @@ var data = [
 	{
 		name: "Sky's Peak", 
 		image: "https://www.nps.gov/zion/planyourvisit/images/South_CG_r_1.jpg",
-		description: "welcome welcome welcome!"
+		description: "Lorem ipsum dolor sit amet, et vel simul ocurreret, modo melius expetenda sea an, dicunt philosophia cu est. Ei honestatis concludaturque eum, pro et noster dissentias conclusionemque. Ad iusto libris has, ad his tation commune, autem abhorreant quo ne. Mea alia clita laboramus cu. Legendos philosophia ut quo, vel ea diam officiis intellegat."
 	},
 	{
 		name: "Dry Oasis", 
 		image: "https://lostriver.com/style/images/Pic-2-Tent.jpg",
-		description: "welcome welcome welcome!"
+		description: "Lorem ipsum dolor sit amet, et vel simul ocurreret, modo melius expetenda sea an, dicunt philosophia cu est. Ei honestatis concludaturque eum, pro et noster dissentias conclusionemque. Ad iusto libris has, ad his tation commune, autem abhorreant quo ne. Mea alia clita laboramus cu. Legendos philosophia ut quo, vel ea diam officiis intellegat."
 	},
 	{
 		name: "RV's paradise", 
 		image: "http://wafflefarm.com/wp-content/uploads/2016/12/WaffleFarmCampground_Sunset_ClubGroup-Camping-Slide.jpg",
-		description: "welcome welcome welcome!"
+		description: "Lorem ipsum dolor sit amet, et vel simul ocurreret, modo melius expetenda sea an, dicunt philosophia cu est. Ei honestatis concludaturque eum, pro et noster dissentias conclusionemque. Ad iusto libris has, ad his tation commune, autem abhorreant quo ne. Mea alia clita laboramus cu. Legendos philosophia ut quo, vel ea diam officiis intellegat."
 	}
 ]
 
