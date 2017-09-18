@@ -1,5 +1,3 @@
 # YelpCamp
-Creating a full stack application that displays searched campsites from a database
-To open, first you need to have node downloaded on your computer, 
-fork this repository, cd to the folder, run node app.js in your terminal 
-and open a new tab to localhost:3000
+Creating a full stack application that displays campsites from a database
+You can create your own account, add your own comments to campsites you've been to, and all data will be saved!
